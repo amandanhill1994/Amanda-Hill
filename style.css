@@ -1,0 +1,205 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.header-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("images/peak-performance-crop.jpg");
+
+  /* Set a specific height */
+  height: 45%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: 'Lobster';
+}
+
+.main-subheading{
+  font-family: 'Cabin';
+  font-size: 100%
+}
+
+h2{
+  font-family: 'Lobster';
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2.footer{
+  color: white;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Lobster';
+}
+
+.header-p{
+  margin-top: 15%;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+/* About Me Section */
+.about-me-section{
+  background-color: #ebebe3;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bio-p{
+  font-family: 'Cabin';
+  text-align: left;
+  margin-left: 20%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bio-img{
+  margin-left: 5%;
+}
+
+/* Skills Section */
+
+.skills-section{
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.skills-icon{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.small-skills-heading{
+  text-align: left;
+  font-family: 'Lobster';
+  font-size: 16px;
+}
+
+.skills-heading{
+  font-family: 'Lobster';
+  text-align: center;
+}
+
+.skill-heading2{
+  font-family: 'Lobster';
+  text-align: center;
+}
+
+.skills-heading-p{
+  font-family: 'Cabin';
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.skill-heading2-p{
+  font-family: 'Cabin';
+  text-align: center;
+}
+
+.dot-section{
+  text-align: center;
+  padding-bottom: 40px;
+}
+/* Project Section */
+
+#carouselExampleSlidesOnly{
+  width:2000px;
+}
+
+.carousel-images{
+  filter: brightness(50%);
+}
+
+.project-section{
+  padding-top: 30px;
+  background-color: #ebebe3;
+  padding-bottom: 30px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+/* Contact Section */
+
+.contact-heading{
+  color:white;
+}
+
+.carousel-text{
+  font-family: 'Cabin';
+  color: white;
+}
+
+.contact-section{
+  background-color: #2b2b28;
+  padding-top: 20px;
+}
+
+.form-control{
+  margin-left: 20%;
+  color: white;
+}
+
+
+.form-label{
+  margin-left: 20%;
+  color: white;
+}
+
+.submit-btn{
+  margin-left: 20%;
+}
+
+.social-media-row{
+  padding-top: 40px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+/* Connect Section */
+
+.connect-section{
+  background-color: #c19898;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Styling for icons */
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+}
+
+.media-icons{
+  text-align: center;
+}
+
+.credenditals{
+  font-size: 5px;
+  display: inline;
+}
